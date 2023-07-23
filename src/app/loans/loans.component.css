@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    align-items: flex-start;
+    width: 50vw;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #b9b9b9;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+
+}
+h3{
+    font-size: 30px;
+    color:#555 ;
+}
+p{
+    padding-top: 30px;
+    font-size: 20px;
+    
+}

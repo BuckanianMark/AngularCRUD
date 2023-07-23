@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    padding: 30px 50px;
+    width: 200px;
+    height: 80vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+}
+.fa-bars{
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    color: #777;
+    cursor: pointer;
+}
+ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+    
+
+}
+ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly;
+
+}
+ul li i{
+    font-size: 22px;
+    color: #a8b155;
+}
+ul li a{
+    text-decoration: none;
+    color: #575e18;
+    font-size: 20px;
+    transition:all .3s ease;
+}
+ul li:hover a{
+    background: #a8b155;
+    
+    padding: 8px;
+    border-radius: 13px;
+}
+ a.active{
+    background: #a8b155;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 13px;
+}
+

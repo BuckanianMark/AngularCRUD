@@ -1,0 +1,45 @@
+.boxes{
+    display: flex;
+    gap: 40px;
+}
+.boxes .box1{
+    border: none;
+    outline: none;
+    background: rgb(235, 235, 91);
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px #999;
+}
+.boxes .box1 span{
+    color: #999;
+    font-weight: bold;
+    font-size: 28px;
+}
+.boxes .box1  p{
+    color: #444;
+    text-transform: capitalize;
+}
+table tbody tr td{
+    padding-left: 40px;
+    margin-left: 10px;
+    color:#444 ; 
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ table tbody {
+    padding-top: 20px;
+}
+table thead tr th{
+    padding-left: 40px;
+    margin-left: 10px;
+    color:#444 ;
+
+}
+.recent-loans{
+    margin-top: 50px;
+    box-shadow: 0 10px 20px #c7c7c7;
+    border-radius: 30px;
+    padding: 25px 0px;
+    width: 70vw;
+}

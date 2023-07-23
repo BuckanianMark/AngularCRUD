@@ -1,0 +1,143 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.container .top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container .top h2{
+color: #666;
+}
+.container .top button{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #575e18;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container .bottom{
+    padding: auto;
+}
+.container .bottom table thead tr th{
+    padding-left: 40px;
+    margin-left: 10px;
+    color:#444 ;
+
+}
+.container .bottom table tbody tr td{
+    padding-left: 40px;
+    margin-left: 10px;
+    color:#444 ; 
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.container .bottom table tbody {
+    padding-top: 20px;
+}
+.container .bottom .edit{
+    padding: 3px;
+    margin-right: 4px;
+    background: #d8e46f;
+    border: 1px solid #888;
+    border-radius: 2px;
+    font-weight: 500;
+    outline: none;
+
+}
+
+.container .bottom .delete{
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background: rgb(236, 151, 151);
+    color: #333;
+    padding: 3px;
+}
+.input.active{
+    opacity: 1;
+}
+.input{
+    transition: all .3s ease-in-out;
+    border: 1px solid #999;
+    opacity: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    transform: translateX(50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    width: 400px;
+}
+
+.input form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.input h1{
+    color: rgb(202, 199, 199);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input input{
+    border-radius:3px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.input .add{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #444;
+    background: #d8e46f;
+}
+.input .cancel{
+   cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666363;
+    padding: 8px;
+    background: rgb(236, 151, 151);
+}
+.search{
+    margin-bottom: 20px;
+}
+.search input{
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgb(211, 233, 252);
+}
+.search button{
+    margin-left: 15px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 5px;
+    background: rgb(211, 233, 252);
+    color: #333;
+}
