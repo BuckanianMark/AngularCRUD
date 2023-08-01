@@ -56,3 +56,23 @@ ul li:hover a{
     border-radius: 13px;
 }
 
+@media(max-width:1000px){
+    .container{
+        width:0px;
+    }
+    ul li i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul li a{
+        display: none;
+    } 
+    .fa-bars{
+        top: 0;
+      
+    }
+    ul {
+        gap: 5px;
+    }
+}

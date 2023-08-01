@@ -43,3 +43,12 @@ h1{
     align-items: center;
     justify-content: space-between;
 }
+@media(max-width:1000px){
+    h1{
+        font-size: 25px;
+    }
+    .right .fa-regular { 
+        padding: 8px 15px;
+      
+    }
+}
